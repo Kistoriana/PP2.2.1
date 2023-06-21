@@ -30,7 +30,7 @@ public class MainApp {
       }
 
       List<User> userList = userService.getUserByCar("KIA", 5);
-      System.out.println("Users Car = "+userList);
+      System.out.println("User by Car = "+userList);
       context.close();
    }
 }
